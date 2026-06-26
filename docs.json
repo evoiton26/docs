@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
-  "name": "Knowledge base",
-  "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
+  "name": "Builder Platform",
+  "description": "Standardized Evoiton product documentation for the Builder Platform.",
   "colors": {
     "primary": "#166E3F",
     "light": "#26BD6C",
@@ -21,132 +21,113 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Onboarding",
+        "tab": "Builder Platform",
         "groups": [
           {
-            "group": "Welcome",
-            "pages": ["index"]
-          },
-          {
-            "group": "Your first days",
+            "group": "01 About",
             "pages": [
-              "onboarding/first-day",
-              "onboarding/first-week",
-              "onboarding/meet-the-team"
+              "builder-platform/01-about/vision",
+              "builder-platform/01-about/problem-statement",
+              "builder-platform/01-about/solution",
+              "builder-platform/01-about/target-customers",
+              "builder-platform/01-about/value-proposition",
+              "builder-platform/01-about/editions",
+              "builder-platform/01-about/roadmap",
+              "builder-platform/01-about/faqs"
             ]
           },
           {
-            "group": "Tools & access",
+            "group": "02 Product Management",
             "pages": [
-              "onboarding/tools/laptop-setup",
-              "onboarding/tools/account-access",
-              "onboarding/tools/vpn-setup"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "HR & People",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["hr-people/index"]
-          },
-          {
-            "group": "Benefits & time off",
-            "pages": [
-              "hr-people/benefits",
-              "hr-people/time-off"
+              "builder-platform/02-product-management/requirements",
+              "builder-platform/02-product-management/user-personas",
+              "builder-platform/02-product-management/use-cases",
+              "builder-platform/02-product-management/user-stories",
+              "builder-platform/02-product-management/feature-matrix",
+              "builder-platform/02-product-management/release-planning"
             ]
           },
           {
-            "group": "Growth & pay",
+            "group": "03 Engineering",
             "pages": [
-              "hr-people/performance-reviews",
-              "hr-people/compensation/index",
-              "hr-people/compensation/salary-bands",
-              "hr-people/compensation/equity-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "IT & Security",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["it-security/index"]
-          },
-          {
-            "group": "Access & devices",
-            "pages": [
-              "it-security/access-requests",
-              "it-security/device-policy"
+              "builder-platform/03-engineering/design",
+              "builder-platform/03-engineering/architecture",
+              "builder-platform/03-engineering/technology-stack",
+              "builder-platform/03-engineering/development",
+              "builder-platform/03-engineering/apis",
+              "builder-platform/03-engineering/integrations",
+              "builder-platform/03-engineering/security",
+              "builder-platform/03-engineering/deployment",
+              "builder-platform/03-engineering/devops"
             ]
           },
           {
-            "group": "Security training",
+            "group": "04 Quality",
             "pages": [
-              "it-security/security-training/index",
-              "it-security/security-training/phishing",
-              "it-security/security-training/data-handling"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Policies",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["policies/index"]
-          },
-          {
-            "group": "Conduct & spend",
-            "pages": [
-              "policies/code-of-conduct",
-              "policies/expense-reimbursement",
-              "policies/travel-policy"
+              "builder-platform/04-quality/qa-strategy",
+              "builder-platform/04-quality/test-plans",
+              "builder-platform/04-quality/test-automation",
+              "builder-platform/04-quality/performance-testing",
+              "builder-platform/04-quality/security-testing",
+              "builder-platform/04-quality/acceptance-criteria"
             ]
           },
           {
-            "group": "Remote work",
+            "group": "05 Operations",
             "pages": [
-              "policies/remote-work/index",
-              "policies/remote-work/home-office-setup",
-              "policies/remote-work/time-zones"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Engineering",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["engineering/index"]
-          },
-          {
-            "group": "Setup & deployment",
-            "pages": [
-              "engineering/dev-setup",
-              "engineering/deployment"
+              "builder-platform/05-operations/installation",
+              "builder-platform/05-operations/configuration",
+              "builder-platform/05-operations/administration",
+              "builder-platform/05-operations/monitoring",
+              "builder-platform/05-operations/backup-recovery",
+              "builder-platform/05-operations/disaster-recovery",
+              "builder-platform/05-operations/troubleshooting",
+              "builder-platform/05-operations/runbooks",
+              "builder-platform/05-operations/support-strategy"
             ]
           },
           {
-            "group": "Incident response",
+            "group": "06 Sales & Marketing",
             "pages": [
-              "engineering/incident-response/index",
-              "engineering/incident-response/on-call",
-              "engineering/incident-response/postmortem"
+              "builder-platform/06-sales-marketing/branding",
+              "builder-platform/06-sales-marketing/messaging",
+              "builder-platform/06-sales-marketing/competitive-analysis",
+              "builder-platform/06-sales-marketing/pricing",
+              "builder-platform/06-sales-marketing/revenue-model",
+              "builder-platform/06-sales-marketing/sales-deck",
+              "builder-platform/06-sales-marketing/product-demo",
+              "builder-platform/06-sales-marketing/customer-success-stories"
             ]
           },
           {
-            "group": "Architecture",
+            "group": "07 Customer Success",
             "pages": [
-              "engineering/architecture/index",
-              "engineering/architecture/services-overview",
-              "engineering/architecture/data-models"
+              "builder-platform/07-customer-success/user-guide",
+              "builder-platform/07-customer-success/tutorials",
+              "builder-platform/07-customer-success/training",
+              "builder-platform/07-customer-success/knowledge-base",
+              "builder-platform/07-customer-success/faqs",
+              "builder-platform/07-customer-success/release-notes"
+            ]
+          },
+          {
+            "group": "08 Governance",
+            "pages": [
+              "builder-platform/08-governance/architecture-decision-records",
+              "builder-platform/08-governance/risks",
+              "builder-platform/08-governance/compliance",
+              "builder-platform/08-governance/licensing",
+              "builder-platform/08-governance/audit"
+            ]
+          },
+          {
+            "group": "09 Resources",
+            "pages": [
+              "builder-platform/09-resources/templates",
+              "builder-platform/09-resources/diagrams",
+              "builder-platform/09-resources/downloads",
+              "builder-platform/09-resources/assets",
+              "builder-platform/09-resources/references"
             ]
           }
         ]
@@ -158,22 +139,9 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Submit IT ticket",
-        "href": "/it-security/access-requests"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Employee portal",
-      "href": "https://dashboard.mintlify.com"
-    }
+    "links": []
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
-    }
+    "socials": {}
   }
 }
