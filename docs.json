@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
-  "name": "Builder Platform",
-  "description": "Standardized Evoiton product documentation for the Builder Platform.",
+  "name": "Rock",
+  "description": "Standardized Evoiton product documentation for Rock.",
   "colors": {
     "primary": "#166E3F",
     "light": "#26BD6C",
@@ -21,113 +21,113 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Builder Platform",
+        "tab": "Rock",
         "groups": [
           {
             "group": "01 About",
             "pages": [
-              "builder-platform/01-about/vision",
-              "builder-platform/01-about/problem-statement",
-              "builder-platform/01-about/solution",
-              "builder-platform/01-about/target-customers",
-              "builder-platform/01-about/value-proposition",
-              "builder-platform/01-about/editions",
-              "builder-platform/01-about/roadmap",
-              "builder-platform/01-about/faqs"
+              "products/rock/01-about/vision",
+              "products/rock/01-about/problem-statement",
+              "products/rock/01-about/solution",
+              "products/rock/01-about/target-customers",
+              "products/rock/01-about/value-proposition",
+              "products/rock/01-about/editions",
+              "products/rock/01-about/roadmap",
+              "products/rock/01-about/faqs"
             ]
           },
           {
             "group": "02 Product Management",
             "pages": [
-              "builder-platform/02-product-management/requirements",
-              "builder-platform/02-product-management/user-personas",
-              "builder-platform/02-product-management/use-cases",
-              "builder-platform/02-product-management/user-stories",
-              "builder-platform/02-product-management/feature-matrix",
-              "builder-platform/02-product-management/release-planning"
+              "products/rock/02-product-management/requirements",
+              "products/rock/02-product-management/user-personas",
+              "products/rock/02-product-management/use-cases",
+              "products/rock/02-product-management/user-stories",
+              "products/rock/02-product-management/feature-matrix",
+              "products/rock/02-product-management/release-planning"
             ]
           },
           {
             "group": "03 Engineering",
             "pages": [
-              "builder-platform/03-engineering/design",
-              "builder-platform/03-engineering/architecture",
-              "builder-platform/03-engineering/technology-stack",
-              "builder-platform/03-engineering/development",
-              "builder-platform/03-engineering/apis",
-              "builder-platform/03-engineering/integrations",
-              "builder-platform/03-engineering/security",
-              "builder-platform/03-engineering/deployment",
-              "builder-platform/03-engineering/devops"
+              "products/rock/03-engineering/design",
+              "products/rock/03-engineering/architecture",
+              "products/rock/03-engineering/technology-stack",
+              "products/rock/03-engineering/development",
+              "products/rock/03-engineering/apis",
+              "products/rock/03-engineering/integrations",
+              "products/rock/03-engineering/security",
+              "products/rock/03-engineering/deployment",
+              "products/rock/03-engineering/devops"
             ]
           },
           {
             "group": "04 Quality",
             "pages": [
-              "builder-platform/04-quality/qa-strategy",
-              "builder-platform/04-quality/test-plans",
-              "builder-platform/04-quality/test-automation",
-              "builder-platform/04-quality/performance-testing",
-              "builder-platform/04-quality/security-testing",
-              "builder-platform/04-quality/acceptance-criteria"
+              "products/rock/04-quality/qa-strategy",
+              "products/rock/04-quality/test-plans",
+              "products/rock/04-quality/test-automation",
+              "products/rock/04-quality/performance-testing",
+              "products/rock/04-quality/security-testing",
+              "products/rock/04-quality/acceptance-criteria"
             ]
           },
           {
             "group": "05 Operations",
             "pages": [
-              "builder-platform/05-operations/installation",
-              "builder-platform/05-operations/configuration",
-              "builder-platform/05-operations/administration",
-              "builder-platform/05-operations/monitoring",
-              "builder-platform/05-operations/backup-recovery",
-              "builder-platform/05-operations/disaster-recovery",
-              "builder-platform/05-operations/troubleshooting",
-              "builder-platform/05-operations/runbooks",
-              "builder-platform/05-operations/support-strategy"
+              "products/rock/05-operations/installation",
+              "products/rock/05-operations/configuration",
+              "products/rock/05-operations/administration",
+              "products/rock/05-operations/monitoring",
+              "products/rock/05-operations/backup-recovery",
+              "products/rock/05-operations/disaster-recovery",
+              "products/rock/05-operations/troubleshooting",
+              "products/rock/05-operations/runbooks",
+              "products/rock/05-operations/support-strategy"
             ]
           },
           {
             "group": "06 Sales & Marketing",
             "pages": [
-              "builder-platform/06-sales-marketing/branding",
-              "builder-platform/06-sales-marketing/messaging",
-              "builder-platform/06-sales-marketing/competitive-analysis",
-              "builder-platform/06-sales-marketing/pricing",
-              "builder-platform/06-sales-marketing/revenue-model",
-              "builder-platform/06-sales-marketing/sales-deck",
-              "builder-platform/06-sales-marketing/product-demo",
-              "builder-platform/06-sales-marketing/customer-success-stories"
+              "products/rock/06-sales-marketing/branding",
+              "products/rock/06-sales-marketing/messaging",
+              "products/rock/06-sales-marketing/competitive-analysis",
+              "products/rock/06-sales-marketing/pricing",
+              "products/rock/06-sales-marketing/revenue-model",
+              "products/rock/06-sales-marketing/sales-deck",
+              "products/rock/06-sales-marketing/product-demo",
+              "products/rock/06-sales-marketing/customer-success-stories"
             ]
           },
           {
             "group": "07 Customer Success",
             "pages": [
-              "builder-platform/07-customer-success/user-guide",
-              "builder-platform/07-customer-success/tutorials",
-              "builder-platform/07-customer-success/training",
-              "builder-platform/07-customer-success/knowledge-base",
-              "builder-platform/07-customer-success/faqs",
-              "builder-platform/07-customer-success/release-notes"
+              "products/rock/07-customer-success/user-guide",
+              "products/rock/07-customer-success/tutorials",
+              "products/rock/07-customer-success/training",
+              "products/rock/07-customer-success/knowledge-base",
+              "products/rock/07-customer-success/faqs",
+              "products/rock/07-customer-success/release-notes"
             ]
           },
           {
             "group": "08 Governance",
             "pages": [
-              "builder-platform/08-governance/architecture-decision-records",
-              "builder-platform/08-governance/risks",
-              "builder-platform/08-governance/compliance",
-              "builder-platform/08-governance/licensing",
-              "builder-platform/08-governance/audit"
+              "products/rock/08-governance/architecture-decision-records",
+              "products/rock/08-governance/risks",
+              "products/rock/08-governance/compliance",
+              "products/rock/08-governance/licensing",
+              "products/rock/08-governance/audit"
             ]
           },
           {
             "group": "09 Resources",
             "pages": [
-              "builder-platform/09-resources/templates",
-              "builder-platform/09-resources/diagrams",
-              "builder-platform/09-resources/downloads",
-              "builder-platform/09-resources/assets",
-              "builder-platform/09-resources/references"
+              "products/rock/09-resources/templates",
+              "products/rock/09-resources/diagrams",
+              "products/rock/09-resources/downloads",
+              "products/rock/09-resources/assets",
+              "products/rock/09-resources/references"
             ]
           }
         ]
